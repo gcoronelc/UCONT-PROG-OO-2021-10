@@ -18,3 +18,8 @@
 - Correo: ecoronel@continental.edu.pe
 
 
+# RECURSOS GENERALES
+
+- Instalación de NetBeans: http://gcoronelc.blogspot.com/2019/12/netbeans-82.html
+
+- Instalación de Apache NetBeans: http://gcoronelc.blogspot.com/2020/08/jdk14apachenetbeans113.html
