@@ -23,7 +23,7 @@ public class MateController {
   }
 
   public int[] fibonacci(int num) {
-    return MateService.fibonacci(num);
+    return MateService.serieFibonacci(num);
   }
 
   public boolean esPrimo(int num) {

@@ -18,6 +18,9 @@ public class PagoDto {
 	private double renta;
 	private double neto;
 
+	public PagoDto() {
+	}
+
 	public int getHorasDia() {
 		return horasDia;
 	}

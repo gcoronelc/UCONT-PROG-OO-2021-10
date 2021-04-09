@@ -15,7 +15,7 @@ public class Prueba03 {
     int n = 7;
     
     // Proceso
-    int[] serie = MateService.fibonacci(n);
+    int[] serie = MateService.serieFibonacci(n);
     
     // Reporte
     System.out.println("n = " + n);

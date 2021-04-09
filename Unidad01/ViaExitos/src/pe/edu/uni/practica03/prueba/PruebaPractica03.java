@@ -11,9 +11,9 @@ public class PruebaPractica03 {
 		PagoDto dto = new PagoDto();
 		
 		// Datos
-		dto.setDias(20);
-		dto.setHorasDia(5);
-		dto.setPagoHora(150.0);
+		dto.setDias(25);
+		dto.setHorasDia(6);
+		dto.setPagoHora(180.0);
 		
 		// Proceso
 		Practica03Service service = new Practica03Service();
@@ -23,6 +23,7 @@ public class PruebaPractica03 {
 		System.out.println("Ingresos: " + dto.getIngreso());
 		System.out.println("Renta: " + dto.getRenta());
 		System.out.println("Neto: " + dto.getNeto());
+
 
 	}
 

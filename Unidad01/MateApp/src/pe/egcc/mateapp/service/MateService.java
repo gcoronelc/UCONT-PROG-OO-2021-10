@@ -42,7 +42,7 @@ public class MateService {
     return valor;
   }
   
-  public static int[] fibonacci(int n){
+  public static int[] serieFibonacci(int n){
     int[] serie = new int[n];
     // Inicio Proceso
     serie[0] = 0;
