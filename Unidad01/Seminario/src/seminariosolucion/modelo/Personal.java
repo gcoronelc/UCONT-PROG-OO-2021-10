@@ -16,19 +16,26 @@ public abstract class Personal {
 	private String dni;
 	private String correo;
 	private String teléfono;
+	private double sueldoBase;
+	private double sueldoExtra; // Administrativo: Horas extras   Docente: Investigacion
+	private double sueldoNeto;
 
 	// Constructor por defecto
 	public Personal() {
 	}
 
 	// Constructor con parametros
-	public Personal(int codigo, String nombre, String apellido, String dni, String correo, String teléfono) {
+
+	public Personal(int codigo, String nombre, String apellido, String dni, String correo, String teléfono, double sueldoBase, double sueldoExtra, double sueldoNeto) {
 		this.codigo = codigo;
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.dni = dni;
 		this.correo = correo;
 		this.teléfono = teléfono;
+		this.sueldoBase = sueldoBase;
+		this.sueldoExtra = sueldoExtra;
+		this.sueldoNeto = sueldoNeto;
 	}
 
 	public int getCodigo() {
@@ -79,4 +86,30 @@ public abstract class Personal {
 		this.teléfono = teléfono;
 	}
 
+	public double getSueldoBase() {
+		return sueldoBase;
+	}
+
+	public void setSueldoBase(double sueldoBase) {
+		this.sueldoBase = sueldoBase;
+	}
+
+	public double getSueldoExtra() {
+		return sueldoExtra;
+	}
+
+	public void setSueldoExtra(double sueldoExtra) {
+		this.sueldoExtra = sueldoExtra;
+	}
+
+	public double getSueldoNeto() {
+		return sueldoNeto;
+	}
+
+	public void setSueldoNeto(double sueldoNeto) {
+		this.sueldoNeto = sueldoNeto;
+	}
+
+	
+	
 }
