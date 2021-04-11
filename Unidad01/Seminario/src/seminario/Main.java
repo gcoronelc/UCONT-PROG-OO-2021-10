@@ -1,4 +1,6 @@
-package seminariosolucion;
+package seminario;
+
+import seminariosolucion.prueba.Prueba01;
 
 /**
  * @author Eric Gustavo Coronel Castillo
@@ -7,13 +9,13 @@ package seminariosolucion;
  * @youtube www.youtube.com/c/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  */
-public class SeminarioSolucion {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola");
+        Prueba01.main(args);
     }
 
 }

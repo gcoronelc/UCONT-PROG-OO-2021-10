@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ProyWork">
+  <ClassDiagramComponents>
+    <Class name="ProyWork" package="proywork" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Prueba01" package="proywork.prueba" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Clase1" package="proywork.service" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="sumar" returnType="int" visibility="public">
+          <Argument type="int" name="n1"/>
+          <Argument type="int" name="n2"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Clase2" package="proywork.service" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Clase3" package="proywork.service" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Clase4" package="proywork.service" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="proywork.service.Clase3" target="proywork.service.Clase2"/>
+    <IsRelation name="is" source="proywork.service.Clase4" target="proywork.service.Clase2"/>
+    <IsRelation name="is" source="proywork.service.Clase2" target="proywork.service.Clase1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

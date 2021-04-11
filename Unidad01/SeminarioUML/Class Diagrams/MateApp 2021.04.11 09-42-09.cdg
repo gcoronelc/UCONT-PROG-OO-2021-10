@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="MateApp">
+  <ClassDiagramComponents>
+    <Class name="MateController" package="pe.egcc.mateapp.controller" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="factorial" returnType="long" visibility="public">
+          <Argument type="int" name="n"/>
+        </Method>
+        <Method name="mcd" returnType="int" visibility="public">
+          <Argument type="int" name="n1"/>
+          <Argument type="int" name="n2"/>
+        </Method>
+        <Method name="mcm" returnType="int" visibility="public">
+          <Argument type="int" name="n1"/>
+          <Argument type="int" name="n2"/>
+        </Method>
+        <Method name="fibonacci" returnType="int[]" visibility="public">
+          <Argument type="int" name="num"/>
+        </Method>
+        <Method name="esPrimo" returnType="boolean" visibility="public">
+          <Argument type="int" name="num"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MateApp" package="pe.egcc.mateapp" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Prueba01" package="pe.egcc.mateapp.prueba" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Prueba02" package="pe.egcc.mateapp.prueba" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Prueba03" package="pe.egcc.mateapp.prueba" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Prueba04" package="pe.egcc.mateapp.prueba" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MateService" package="pe.egcc.mateapp.service" visibility="public" xPosition="2120.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="private"/>
+      </Constructors>
+      <Methods>
+        <Method name="factorial" returnType="long" visibility="public" isStatic="true">
+          <Argument type="int" name="n"/>
+        </Method>
+        <Method name="mcd" returnType="int" visibility="public" isStatic="true">
+          <Argument type="int" name="n1"/>
+          <Argument type="int" name="n2"/>
+        </Method>
+        <Method name="mcm" returnType="int" visibility="public" isStatic="true">
+          <Argument type="int" name="n1"/>
+          <Argument type="int" name="n2"/>
+        </Method>
+        <Method name="serieFibonacci" returnType="int[]" visibility="public" isStatic="true">
+          <Argument type="int" name="n"/>
+        </Method>
+        <Method name="esPrimo" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="int" name="n"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="FactorialView" package="pe.egcc.mateapp.view" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields>
+        <Field name="btnProcesar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblRepo" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtNum" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="btnProcesarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="FibonacciView" package="pe.egcc.mateapp.view" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Fields>
+        <Field name="btnProcesar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="txtNum" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtRepo" type="javax.swing.JTextArea" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="btnProcesarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="FormMDI" package="pe.egcc.mateapp.view" visibility="public" xPosition="620.0" yPosition="420.0">
+      <Fields>
+        <Field name="desktopPane" type="javax.swing.JDesktopPane" visibility="private"/>
+        <Field name="menuArchivo" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="menuArchivoSalir" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="menuBar" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="menuMate" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="menuMateFactorial" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="menuMateFibonacci" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="menuMateMcdMcm" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="menuMatePrimo" type="javax.swing.JMenuItem" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="menuArchivoSalirActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="menuMateFactorialActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="menuMateMcdMcmActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="menuMateFibonacciActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="menuMatePrimoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+        <Method name="mostrarForm" returnType="void" visibility="private">
+          <Argument type="Class&lt;?&gt;" name="aClass"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="McdMcmView" package="pe.egcc.mateapp.view" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields>
+        <Field name="btnProcesar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblRepo" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtNum1" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtNum2" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="btnProcesarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PrimoView" package="pe.egcc.mateapp.view" visibility="public" xPosition="1220.0" yPosition="420.0">
+      <Fields>
+        <Field name="btnProcesar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="lblRepo" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="txtNum" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="btnProcesarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
