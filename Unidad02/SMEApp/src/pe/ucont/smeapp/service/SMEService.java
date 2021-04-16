@@ -9,6 +9,9 @@ package pe.ucont.smeapp.service;
  */
 public class SMEService {
 	
+	// Producto academico 2
+	private static double saldo = 5000;
+	
 	private static final double SOLES_TO_DOLARES = 3.60;
 	private static final double SOLES_TO_EUROS = 4.60;
 	
