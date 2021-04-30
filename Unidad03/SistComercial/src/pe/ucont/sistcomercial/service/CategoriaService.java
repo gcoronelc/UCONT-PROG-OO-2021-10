@@ -1,13 +1,14 @@
 package pe.ucont.sistcomercial.service;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import pe.ucont.sistcomercial.db.AccesoDB;
 import pe.ucont.sistcomercial.dto.CategoriaDto;
+
+import java.sql.ResultSet;
 
 /**
  * @author Eric Gustavo Coronel Castillo
