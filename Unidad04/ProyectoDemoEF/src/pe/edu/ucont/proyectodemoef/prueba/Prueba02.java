@@ -1,7 +1,5 @@
 package pe.edu.ucont.proyectodemoef.prueba;
 
-import java.sql.Connection;
-import pe.edu.ucont.proyectodemoef.db.AccesoDB;
 import pe.edu.ucont.proyectodemoef.dto.EmpleadoDto;
 import pe.edu.ucont.proyectodemoef.service.LogonService;
 

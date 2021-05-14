@@ -1,5 +1,6 @@
 package pe.edu.ucont.proyectodemoef.view;
 
+import javax.swing.JInternalFrame;
 import pe.edu.ucont.proyectodemoef.dto.EmpleadoDto;
 
 /**
@@ -42,6 +43,8 @@ public class MainView extends javax.swing.JFrame {
       helpMenu = new javax.swing.JMenu();
       contentMenuItem = new javax.swing.JMenuItem();
       aboutMenuItem = new javax.swing.JMenuItem();
+      menuCuenta = new javax.swing.JMenu();
+      menuCuentaRetiro = new javax.swing.JMenuItem();
 
       setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -106,6 +109,18 @@ public class MainView extends javax.swing.JFrame {
 
       menuBar.add(helpMenu);
 
+      menuCuenta.setText("Cuenta");
+
+      menuCuentaRetiro.setText("Retiro");
+      menuCuentaRetiro.addActionListener(new java.awt.event.ActionListener() {
+         public void actionPerformed(java.awt.event.ActionEvent evt) {
+            menuCuentaRetiroActionPerformed(evt);
+         }
+      });
+      menuCuenta.add(menuCuentaRetiro);
+
+      menuBar.add(menuCuenta);
+
       setJMenuBar(menuBar);
 
       javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -125,6 +140,12 @@ public class MainView extends javax.swing.JFrame {
     private void exitMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitMenuItemActionPerformed
         System.exit(0);
     }//GEN-LAST:event_exitMenuItemActionPerformed
+
+   private void menuCuentaRetiroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCuentaRetiroActionPerformed
+      JInternalFrame view = new RetiroView();
+		desktopPane.add(view);
+		view.setVisible(true);
+   }//GEN-LAST:event_menuCuentaRetiroActionPerformed
 
     /**
      * @param args the command line arguments
@@ -173,6 +194,8 @@ public class MainView extends javax.swing.JFrame {
    private javax.swing.JMenu fileMenu;
    private javax.swing.JMenu helpMenu;
    private javax.swing.JMenuBar menuBar;
+   private javax.swing.JMenu menuCuenta;
+   private javax.swing.JMenuItem menuCuentaRetiro;
    private javax.swing.JMenuItem openMenuItem;
    private javax.swing.JMenuItem pasteMenuItem;
    private javax.swing.JMenuItem saveAsMenuItem;
