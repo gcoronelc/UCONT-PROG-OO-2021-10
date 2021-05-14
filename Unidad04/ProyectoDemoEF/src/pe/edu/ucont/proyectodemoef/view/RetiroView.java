@@ -121,12 +121,15 @@ public class RetiroView extends javax.swing.JInternalFrame {
 			CuentaService service = new CuentaService();
 			double saldo = service.procesoRetiro(cuenta, importe, clave, empleado.getCodigo());
 			if( service.getCode() == 1 ){
-				JOptionPane.showMessageDialog(this, "Nuevo saldo: " + saldo);
+				Mensaje.info(this, "Nuevo saldo: " + saldo);
+				//JOptionPane.showMessageDialog(this, "Nuevo saldo: " + saldo);
 			} else {
-				JOptionPane.showMessageDialog(this, service.getMessage());
+				Mensaje.error(this, service.getMessage());
+				//JOptionPane.showMessageDialog(this, service.getMessage());
 			}
 		} catch (Exception e) {
-			JOptionPane.showMessageDialog(this, e.getMessage());
+			Mensaje.error(this, e.getMessage());
+			//JOptionPane.showMessageDialog(this, e.getMessage());
 		}
 		
    }//GEN-LAST:event_btnProcesarActionPerformed
